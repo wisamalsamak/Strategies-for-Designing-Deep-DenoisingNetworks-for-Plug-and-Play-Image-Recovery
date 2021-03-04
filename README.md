@@ -15,8 +15,7 @@
 4) Change 'data_path' in 'Plug_and_Play.ipynb' to the folder that contains your 'train' and 'val' folders.
 5) Change network model class (if you want). Note that the output image should have the same size as the input image.
 ![](images/nn_class.png?raw=true)
-6) Specify training settings and train your model.
-![](images/specify_training_settings.png?raw=true) 
+6) Specify training settings and train your model in the 'Network training' cell.
 
 7) Test the denoising performance on a sample of the validation set by using
 ```python
