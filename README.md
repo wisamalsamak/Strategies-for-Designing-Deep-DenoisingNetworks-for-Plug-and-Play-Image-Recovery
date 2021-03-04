@@ -2,10 +2,10 @@
 
 ## Content
 
-[Training a denoiser model](#training-a-denoiser-model) <br/>
-[Use pretrained denoiser model](#use-pretrained-denoiser-model) <br/>
+[Training a PnP denoiser model](#training-a-pnp-denoiser-model) <br/>
+[Use pretrained PnP denoiser model](#use-pretrained-pnp-denoiser-model) <br/>
 
-## Training a denoiser model
+## Training a PnP denoiser model
 **Note**: the following steps show you how to train a PnP CNN denoiser using the provided **Plug_and_Play.ipynb** notebook. You can use the same notebook to train the PnP U-net or PnP Gan Denoisers by changing the model class.
 
 1) Download the BSDS500 dataset from https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/ , the Waterloo exploration dataset from https://ece.uwaterloo.ca/~k29ma/exploration/ , and the ground truth test images of 'Parrot', 'Monarch', and 'Lena' in **images/test_images**. 
